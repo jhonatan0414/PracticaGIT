@@ -19,6 +19,7 @@ public class agregarProductoAlCarrito implements Task{
 	}
 
 	public static agregarProductoAlCarrito metodoAgregar() {
+		//Prueba
 		return Tasks.instrumented(agregarProductoAlCarrito.class);
 	}
 	
